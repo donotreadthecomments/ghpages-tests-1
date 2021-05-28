@@ -1,0 +1,2 @@
+language = "bash"
+run = 'bash -c "source run.sh"'
