@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jekyllrb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jekyllrb.com/" rel="alternate" type="text/html" /><updated>2020-08-05T11:55:36-07:00</updated><id>https://jekyllrb.com/feed.xml</id><title type="html">Jekyll • Simple, blog-aware, static sites</title><subtitle>Transform your plain text into static websites and blogs</subtitle><entry><title type="html">Jekyll 3.8.6 Released</title><link href="https://jekyllrb.com/news/2019/07/02/jekyll-3-8-6-released/" rel="alternate" type="text/html" title="Jekyll 3.8.6 Released" /><published>2019-07-02T08:21:02-07:00</published><updated>2019-07-02T08:21:02-07:00</updated><id>https://jekyllrb.com/news/2019/07/02/jekyll-3-8-6-released</id><content type="html" xml:base="https://jekyllrb.com/news/2019/07/02/jekyll-3-8-6-released/">&lt;p&gt;We have another patch release in the 3.8 series! This time, we have one security patch
+and a handful of bug patches, including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Filter symlinks from theme gems&lt;/li&gt;
+  &lt;li&gt;Fix excerpt handling of some Liquid tags&lt;/li&gt;
+  &lt;li&gt;Handle case where a theme directory doesn’t exist&lt;/li&gt;
+  &lt;li&gt;A few internal optimizations to reduce memory overhead&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;… and a few more! You can check out the patches and see all the details in &lt;a href=&quot;/docs/history/#v3-8-6&quot;&gt;the release notes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Happy Jekylling!&lt;/p&gt;</content><author><name>parkr</name></author><category term="release" /><summary type="html">We have another patch release in the 3.8 series! This time, we have one security patch and a handful of bug patches, including:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jekyllrb.com/img/twitter-card.png" /><media:content medium="image" url="https://jekyllrb.com/img/twitter-card.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Jekyll 3.8.3 Released</title><link href="https://jekyllrb.com/news/2018/06/05/jekyll-3-8-3-released/" rel="alternate" type="text/html" title="Jekyll 3.8.3 Released" /><published>2018-06-05T07:00:00-07:00</published><updated>2018-06-05T07:00:00-07:00</updated><id>https://jekyllrb.com/news/2018/06/05/jekyll-3-8-3-released</id><content type="html" xml:base="https://jekyllrb.com/news/2018/06/05/jekyll-3-8-3-released/">&lt;p&gt;This release fixes a regression in 3.8 where collections with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;published: false&lt;/code&gt;
+do not show when using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--unpublished&lt;/code&gt; flag.&lt;/p&gt;
+
+&lt;p&gt;Thanks to @philipbelesky for reporting and fixing this issue; collections with
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;published: false&lt;/code&gt; now behave the same way as Posts.&lt;/p&gt;</content><author><name>pathawks</name></author><category term="release" /><summary type="html">This release fixes a regression in 3.8 where collections with published: false do not show when using the --unpublished flag.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jekyllrb.com/img/twitter-card.png" /><media:content medium="image" url="https://jekyllrb.com/img/twitter-card.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Jekyll 3.8.2 Released</title><link href="https://jekyllrb.com/news/2018/05/19/jekyll-3-8-2-released/" rel="alternate" type="text/html" title="Jekyll 3.8.2 Released" /><published>2018-05-19T08:30:00-07:00</published><updated>2018-05-19T08:30:00-07:00</updated><id>https://jekyllrb.com/news/2018/05/19/jekyll-3-8-2-released</id><content type="html" xml:base="https://jekyllrb.com/news/2018/05/19/jekyll-3-8-2-released/">&lt;p&gt;Hello Jekyllers!!&lt;/p&gt;
+
+&lt;p&gt;Today we are releasing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;v3.8.2&lt;/code&gt;, which fixes the way Jekyll generates excerpts
+for posts when the first paragraph of the post contains Liquid tags that take
+advantage of &lt;a href=&quot;https://shopify.github.io/liquid/basics/whitespace/&quot;&gt;Liquid’s whitespace control feature&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Big thanks to @kylebarbour, who first reported this issue and also very quickly
+submitted a fix. Also thanks to @nickskalkin for making sure that we are using
+the latest version of Rubocop to lint our code.&lt;/p&gt;</content><author><name>pathawks</name></author><category term="release" /><summary type="html">Hello Jekyllers!!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jekyllrb.com/img/twitter-card.png" /><media:content medium="image" url="https://jekyllrb.com/img/twitter-card.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Jekyll 3.8.1 Released</title><link href="https://jekyllrb.com/news/2018/05/01/jekyll-3-8-1-released/" rel="alternate" type="text/html" title="Jekyll 3.8.1 Released" /><published>2018-05-01T09:56:01-07:00</published><updated>2018-05-01T09:56:01-07:00</updated><id>https://jekyllrb.com/news/2018/05/01/jekyll-3-8-1-released</id><content type="html" xml:base="https://jekyllrb.com/news/2018/05/01/jekyll-3-8-1-released/">&lt;p&gt;Happy May Day :tada:&lt;/p&gt;
+
+&lt;p&gt;The Jekyll team is happy to announce the release of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;v3.8.1&lt;/code&gt;, which fixes
+a couple of bugs that were introduced two weeks ago in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;v3.8.0&lt;/code&gt;. If you have
+experienced trouble regarding post excerpts or non-published posts, this release
+should be the remedy. Thanks to @Chaosed0 and @domLocalHeroes for originally
+reporting these issues, and to @ashmaroli for fixing them so quickly.&lt;/p&gt;
+
+&lt;p&gt;As a reminder, we have started work on Jekyll 4.0. If there are any
+features that you would love to see added to Jekyll, or any pain points you
+would like to see removed, please do add your ideas to the &lt;a href=&quot;https://github.com/jekyll/jekyll/issues/6948&quot;&gt;Jekyll 4.0 idea
+list&lt;/a&gt;.&lt;/p&gt;</content><author><name>pathawks</name></author><category term="release" /><summary type="html">Happy May Day :tada:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jekyllrb.com/img/twitter-card.png" /><media:content medium="image" url="https://jekyllrb.com/img/twitter-card.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Jekyll 3.7.3 Released</title><link href="https://jekyllrb.com/news/2018/02/24/jekyll-3-7-3-released/" rel="alternate" type="text/html" title="Jekyll 3.7.3 Released" /><published>2018-02-24T23:32:08-08:00</published><updated>2018-02-24T23:32:08-08:00</updated><id>https://jekyllrb.com/news/2018/02/24/jekyll-3-7-3-released</id><content type="html" xml:base="https://jekyllrb.com/news/2018/02/24/jekyll-3-7-3-released/">&lt;p&gt;Hello Jekyllers!! :wave:&lt;/p&gt;
+
+&lt;p&gt;We’re pleased to announce the release of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;v3.7.3&lt;/code&gt; which fixes a bug one might encounter while using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Jekyll - 3.7.x&lt;/code&gt; along with a
+Jekyll plugin that in turn uses the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I18n&lt;/code&gt; library.&lt;/p&gt;
+
+&lt;p&gt;When &lt;a href=&quot;/news/2018/01/02/jekyll-3-7-0-released/&quot;&gt;v3.7.0&lt;/a&gt; enhanced our &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;slugify&lt;/code&gt; filter with a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;latin&lt;/code&gt; option, we also
+hardcoded a default fallback locale for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I18n&lt;/code&gt; library to avoid an exception raised in the event the library fails to find
+any locale. This led to issues with third-party i18n plugins for Jekyll, especially since the default locale got assigned before
+the plugin was loaded, irrespective of whether the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;slugify&lt;/code&gt; filter was used.&lt;/p&gt;
+
+&lt;p&gt;Jekyll will henceforth set the default locale if and only if necessary.&lt;/p&gt;</content><author><name>ashmaroli</name></author><category term="release" /><summary type="html">Hello Jekyllers!! :wave:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jekyllrb.com/img/twitter-card.png" /><media:content medium="image" url="https://jekyllrb.com/img/twitter-card.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Meet Jekyll’s New Lead Developer</title><link href="https://jekyllrb.com/news/2018/02/19/meet-jekyll-s-new-lead-developer/" rel="alternate" type="text/html" title="Meet Jekyll’s New Lead Developer" /><published>2018-02-19T17:48:09-08:00</published><updated>2018-02-19T17:48:09-08:00</updated><id>https://jekyllrb.com/news/2018/02/19/meet-jekyll-s-new-lead-developer</id><content type="html" xml:base="https://jekyllrb.com/news/2018/02/19/meet-jekyll-s-new-lead-developer/">&lt;p&gt;Jekyll has a new Lead Developer: &lt;a href=&quot;https://liv.cat/&quot;&gt;Olivia&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;After over 5 years of leading Jekyll, many releases from 0.12.1 to 3.6.0, and
+countless conversations in GitHub Issues, Pull Requests, Jekyll Talk, and
+more, I am passing on the torch as Lead Developer of Jekyll.&lt;/p&gt;
+
+&lt;p&gt;Olivia has been working with the Jekyll community for some time now. You
+may have seen her around in issues and pull requests on the various Jekyll
+repositories. She started as a contributor, then joined the Core team as our
+community lead. Olivia joined the Jekyll Core Team with experience in the
+Node.js community, both online and as a volunteer organizer with JSConf EU.&lt;/p&gt;
+
+&lt;p&gt;In my conversations with Olivia, it is clear that Jekyll’s vision of
+simplicity for the user (&lt;a href=&quot;/philosophy#1-no-magic&quot;&gt;no magic!&lt;/a&gt;) and letting
+users’ &lt;a href=&quot;/philosophy#3-content-is-king&quot;&gt;content be king&lt;/a&gt; will remain a top
+priority. In just the last few weeks as the transition has been occurring,
+we have seen some incredible work on performance that will make future
+versions of Jekyll work better at scale. She will be prioritizing work on
+innovative improvements to make Jekyll that much better for all of us.
+Olivia balances an eye for quality with the need for shipping well.&lt;/p&gt;
+
+&lt;p&gt;When Tom Preston-Werner met me at GitHub HQ 2.0 in January 2013 to pass on
+the torch, I could never have dreamed of all the amazing experiences this
+community would share with me over the next 5 years. From visiting @qrush
+in Buffalo, NY for a hack night on Jekyll to attending a Jekyll planning
+session hosted by @benbalter at GitHub to Google Summer of Code which gave
+us jekyll-admin, I am eternally grateful to all of you for the opportunity
+to lead this excellent community. I’m confident Olivia will continue to
+lead Jekyll to even greater heights.&lt;/p&gt;
+
+&lt;p&gt;As always, Happy Jekylling!&lt;/p&gt;
+
+&lt;p&gt;Parker&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Curious about who else runs this show? &lt;a href=&quot;/team/&quot;&gt;Check out our excellent team.&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name>parkr</name></author><category term="team" /><summary type="html">Jekyll has a new Lead Developer: Olivia!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jekyllrb.com/img/twitter-card.png" /><media:content medium="image" url="https://jekyllrb.com/img/twitter-card.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Jekyll 3.7.2 Released</title><link href="https://jekyllrb.com/news/2018/01/25/jekyll-3-7-2-released/" rel="alternate" type="text/html" title="Jekyll 3.7.2 Released" /><published>2018-01-25T08:52:22-08:00</published><updated>2018-01-25T08:52:22-08:00</updated><id>https://jekyllrb.com/news/2018/01/25/jekyll-3-7-2-released</id><content type="html" xml:base="https://jekyllrb.com/news/2018/01/25/jekyll-3-7-2-released/">&lt;p&gt;Close on the heels of shipping 3.7.0, we were informed of a couple of
+regressions due to the changes made in that release. In due time, Team Jekyll
+set out to address those issues as early as possible.&lt;/p&gt;
+
+&lt;p&gt;Days later here we’re, announcing 3.7.2 (sorry for skipping 3.7.1, 
+RubyGems didn’t want to play nice) that fixes numerous issues! :tada:
+The highlights being:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;A major regression in 3.7.0 was that when a Front Matter Default was
+configured with a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;scope[&quot;path&quot;]&lt;/code&gt; set to a directory, Jekyll would scan
+that directory for any subfolders and files, for each document in that
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;path&lt;/code&gt;.
+Though this is intended, it increases build times in proportion to the size
+of the directory.&lt;/p&gt;
+
+    &lt;p&gt;We addressed this by having Jekyll scan the directory path only if the user
+explicitly configures the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;scope[&quot;path&quot;]&lt;/code&gt; using wildcards.&lt;/p&gt;
+
+    &lt;p&gt;Read our &lt;a href=&quot;/docs/configuration/#glob-patterns-in-front-matter-defaults&quot;&gt;documentation&lt;/a&gt;
+for more details.&lt;/p&gt;
+
+    &lt;p&gt;A huge shout-out to @mmistakes for bringing this to our notice and
+additionally providing us with a test repository to aid in resolving the issue.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Another regression reported was related to our “Custom collections
+directory” feature introduced in 3.7.0.&lt;/p&gt;
+
+    &lt;p&gt;Users setting &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;collection_dir&lt;/code&gt; to a certain directory would have &lt;em&gt;altered&lt;/em&gt;
+paths to their posts still at the root of their site’s source. This
+roughly translated to 404 errors on URLs to their posts.&lt;/p&gt;
+
+    &lt;p&gt;Props to @localheinz for bringing this regression to our notice.&lt;/p&gt;
+
+    &lt;p&gt;We decided to resolve this by having Jekyll ignore posts and drafts at the
+root of the site’s source directory if the user customizes the
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;collection_dir&lt;/code&gt; setting.&lt;/p&gt;
+
+    &lt;p&gt;Ergo, if you set a custom location for your collections, please ensure you
+move all of your collections into that directory. &lt;strong&gt;This includes posts and
+drafts as well&lt;/strong&gt;. Your links generated by
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{% post_url %}&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{% link %}&lt;/code&gt;
+will adapt automatically.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We also found out that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem &quot;wdm&quot;&lt;/code&gt; boosts performance while directories are
+being watched on Windows. So we recommend having it included in your Gemfile
+for a better development experience on Windows. (Newly generated Gemfiles
+will hereafter have that gem listed automatically :wink:)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In addition to the above, numerous other minor fixes and documentation updates
+have been made that should improve your Jekyll experience. All of which, would
+not have been possible without our wonderful contributors:&lt;/p&gt;
+
+&lt;p&gt;Alexandr, Andreas Möller, Ashwin Maroli, Chayoung You, Florian Thomas,
+Frank Taillandier, Hendrik Schneider, Kacper Duras, Olivia, Parker Moore and
+Paul Robert Lloyd.&lt;/p&gt;
+
+&lt;p&gt;As always, you can see our full changelog on &lt;a href=&quot;/docs/history/&quot;&gt;the History page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Happy Jekylling! :sparkles:&lt;/p&gt;</content><author><name>ashmaroli</name></author><category term="release" /><summary type="html">Close on the heels of shipping 3.7.0, we were informed of a couple of regressions due to the changes made in that release. In due time, Team Jekyll set out to address those issues as early as possible.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jekyllrb.com/img/twitter-card.png" /><media:content medium="image" url="https://jekyllrb.com/img/twitter-card.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Jekyll 3.7.0 Released</title><link href="https://jekyllrb.com/news/2018/01/02/jekyll-3-7-0-released/" rel="alternate" type="text/html" title="Jekyll 3.7.0 Released" /><published>2018-01-02T02:21:40-08:00</published><updated>2018-01-02T02:21:40-08:00</updated><id>https://jekyllrb.com/news/2018/01/02/jekyll-3-7-0-released</id><content type="html" xml:base="https://jekyllrb.com/news/2018/01/02/jekyll-3-7-0-released/">&lt;p&gt;We’re happy to release a new minor for the new year.
+Here are a few of the latest additions from our contributors:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;LiveReload is available as an option during development: with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve --livereload&lt;/code&gt; no more manual page refresh. A big thanks to @awood for this feature and to @andreyvit, LiveReload author.&lt;/li&gt;
+  &lt;li&gt;New &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;collections_dir&lt;/code&gt; configuration option allows you to store all your &lt;a href=&quot;/docs/collections&quot;&gt;collections&lt;/a&gt; in a single folder. Your source root folder should now look cleaner :sparkles: .&lt;/li&gt;
+  &lt;li&gt;If you’re using a &lt;a href=&quot;/docs/themes/&quot;&gt;gem-based theme&lt;/a&gt; in coordination with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--incremental&lt;/code&gt; option, you should notice some significant speed during the regeneration process, we did see build time went down &lt;strong&gt;from 12s to 2s&lt;/strong&gt; with @mmistakes &lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes&quot;&gt;minimal-mistakes theme&lt;/a&gt; during our tests.&lt;/li&gt;
+  &lt;li&gt;Jekyll will now check to determine whether host machine has internet connection.&lt;/li&gt;
+  &lt;li&gt;A new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;latin&lt;/code&gt; option is available to better &lt;a href=&quot;/docs/templates/#options-for-the-slugify-filter&quot;&gt;handle URLs slugs&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;And of course many bug fixes and updates to our documentation — which you can now search thanks to our friends @Algolia.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/docs/history/#v3-7-0&quot;&gt;Full history is here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This release wouldn’t have been possible without all the following people:&lt;/p&gt;
+
+&lt;p&gt;Aaron Borden, Alex Tsui, Alex Wood, Alexey Pelykh, Andrew Dassonville, Angelika Tyborska, Ankit Singhaniya, Ashwin Maroli, bellvat, Brandon Dusseau, Chris Finazzo, Doug Beney, Dr. Wolfram Schroers, Edward Shen, Florian Thomas, Frank Taillandier, Gert-jan Theunissen, Goulven Champenois, János Rusiczki, Jed Fox, Johannes Müller, Jon Anning, Jonathan Hooper, Jordon Bedwell, Junko Suzuki, Kacper Duras, Kenton Hansen, Kewin Dousse, Matt Rogers, Maximiliano Kotvinsky, mrHoliday, Olivia, Parker Moore, Pat Hawks, Sebastian Kulig, Vishesh Ruparelia, Xiaoiver and Yashu Mittal.&lt;/p&gt;
+
+&lt;p&gt;A big thanks to everyone!&lt;/p&gt;
+
+&lt;p&gt;Oh, one last thing…&lt;/p&gt;
+
+&lt;h3 id=&quot;pray-upgrade-your-ruby&quot;&gt;:pray: upgrade your Ruby&lt;/h3&gt;
+
+&lt;p&gt;Prepare for the next major update, as next major version Jekyll 4.0 will drop support for Ruby 2.1 and 2.2.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ruby 2.2 is now under the state of the security maintenance phase, until the end of the March of 2018. After the date, maintenance of Ruby 2.2 will be ended. We recommend you start planning migration to newer versions of Ruby, such as 2.4 or 2.3. — &lt;a href=&quot;https://www.ruby-lang.org/en/news/2017/12/14/ruby-2-2-9-released/&quot;&gt;Ruby Core Team&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We strongly encourage you to upgrade to at least Ruby 2.4.x &lt;a href=&quot;https://pages.github.com/versions/&quot;&gt;like our friends at GitHub Pages&lt;/a&gt; or even go with &lt;a href=&quot;https://www.ruby-lang.org/en/news/2017/12/25/ruby-2-5-0-released/&quot;&gt;Ruby 2.5&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Happy new year to all from the Jekyll team!&lt;/p&gt;</content><author><name>DirtyF</name></author><category term="release" /><summary type="html">We’re happy to release a new minor for the new year. Here are a few of the latest additions from our contributors:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jekyllrb.com/img/twitter-card.png" /><media:content medium="image" url="https://jekyllrb.com/img/twitter-card.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Jekyll 3.6.2 Released</title><link href="https://jekyllrb.com/news/2017/10/21/jekyll-3-6-2-released/" rel="alternate" type="text/html" title="Jekyll 3.6.2 Released" /><published>2017-10-21T12:31:40-07:00</published><updated>2017-10-21T12:31:40-07:00</updated><id>https://jekyllrb.com/news/2017/10/21/jekyll-3-6-2-released</id><content type="html" xml:base="https://jekyllrb.com/news/2017/10/21/jekyll-3-6-2-released/">&lt;p&gt;3.6.2 is out, it’s a tiny patch release and we invite you to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle update&lt;/code&gt;
+if you want to avoid possible build problems with:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;some UTF-8 and UTF-16 encoded files,&lt;/li&gt;
+  &lt;li&gt;fully numeric layout names (we convert those to string for you now).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Other changes include updates to our documentation, like this &lt;a href=&quot;../tutorials/video-walkthroughs/&quot;&gt;complete
+video series by Giraffe Academy&lt;/a&gt; aimed at
+complete beginners. A big thanks to Mike for this.&lt;/p&gt;
+
+&lt;p&gt;And if you’re wondering what happened to version 3.6.1, it was just our new
+release maintainer getting familiar with the release process. 😄&lt;/p&gt;
+
+&lt;p&gt;We try to release patch releases as quickly as possible and we’re already
+working on the next minor version 3.7.0 that will allow you to store all your
+collections in a single directory. Stay tuned.&lt;/p&gt;
+
+&lt;p&gt;Theme developers are invited to test the brand new
+&lt;a href=&quot;https://github.com/benbalter/jekyll-remote-theme&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll-remote-theme&lt;/code&gt;&lt;/a&gt; plugin
+and give their feedback to @benbalter. This plugin allows you to use any
+GitHub hosted theme as a remote theme!&lt;/p&gt;
+
+&lt;p&gt;Once again, many thanks to our contributors who helped make this release possible:
+ashmaroli, bellvat, Frank Taillandier, i-give-up, Jan Piotrowski, Maximiliano
+Kotvinsky, Oliver Steele and Pat Hawks. For some it was their &lt;a href=&quot;/news/2017/10/19/diversity-open-source/&quot;&gt;first
+contribution to open-source&lt;/a&gt; 👏&lt;/p&gt;
+
+&lt;p&gt;As it’s been nine years this week that Tom Preston-Werner started this project,
+I also wanna seize this opportunity to thank &lt;a href=&quot;https://github.com/jekyll/jekyll/graphs/contributors&quot;&gt;all of the 732 contributors&lt;/a&gt; who
+helped make it possible for Jekyll to power millions of websites around the world
+today.&lt;/p&gt;
+
+&lt;p&gt;Happy Birthday Jekyll! 🎂&lt;/p&gt;</content><author><name>dirtyf</name></author><category term="release" /><summary type="html">3.6.2 is out, it’s a tiny patch release and we invite you to run bundle update if you want to avoid possible build problems with:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jekyllrb.com/img/twitter-card.png" /><media:content medium="image" url="https://jekyllrb.com/img/twitter-card.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Diversity in Open Source, and Jekyll’s role in it</title><link href="https://jekyllrb.com/news/2017/10/19/diversity-open-source/" rel="alternate" type="text/html" title="Diversity in Open Source, and Jekyll’s role in it" /><published>2017-10-19T12:33:00-07:00</published><updated>2017-10-19T12:33:00-07:00</updated><id>https://jekyllrb.com/news/2017/10/19/diversity-open-source</id><content type="html" xml:base="https://jekyllrb.com/news/2017/10/19/diversity-open-source/">&lt;p&gt;Open Source has a problem with diversity. GitHub recently conducted a &lt;a href=&quot;http://opensourcesurvey.org/2017&quot;&gt;survey&lt;/a&gt; which revealed that 95% of the respondents were identifying as male. This is even worse than in the tech industry overall, where the percentage is only about 76%. Every other week, there seems to be another case of a maintainer engaging in targeted harassment against minorities. People somehow deem it completely okay to let these things slide, though.&lt;/p&gt;
+
+&lt;p&gt;Fortunately, there’s a couple of things we can do to make it easier and more comfortable for people that have never contributed to any open source project before, to contribute to our projects.&lt;/p&gt;
+
+&lt;h2 id=&quot;add-a-code-of-conduct-and-enforce-it&quot;&gt;Add a Code of Conduct, and enforce it&lt;/h2&gt;
+
+&lt;p&gt;This might seem like one of the easiest steps to do, but it actually requires a lot of dedication to pull through with. Basically, a Code of Conduct is a document detailing what is and what isn’t acceptable behavior in your project. A good Code of Conduct also details enforcement procedures, that means how the person violating the Code of Conduct gets dealt with. This is the point at which I’ve seen a looooot of projects fail. It’s easy enough to copy-paste a Code of Conduct into your project, but it’s more important to be clear on how to enforce it. Inconsistent —or worse, nonexistent— enforcement is just going to scare off newcomers even more!&lt;/p&gt;
+
+&lt;p&gt;The most widely adopted Code of Conduct is the &lt;a href=&quot;https://www.contributor-covenant.org/&quot;&gt;Contributor Covenant&lt;/a&gt;. It’s a very good catch-all document, but it is a bit light in the enforcement section, so I’d recommend to flesh it out by yourself, be it by means of adding contact information or expanding the enforcement rules.&lt;/p&gt;
+
+&lt;p&gt;No matter which Code of Conduct you pick, the most important thing is to actually &lt;em&gt;read it for yourself&lt;/em&gt;. The worst thing in open source is a maintainer that doesn’t know when they’ve violated their own Code of Conduct.&lt;/p&gt;
+
+&lt;h2 id=&quot;document-your-contributing-workflow&quot;&gt;Document your contributing workflow&lt;/h2&gt;
+
+&lt;p&gt;The problem that puts people off the most is incomplete or missing documentation, as revealed through GitHub’s &lt;a href=&quot;http://opensourcesurvey.org/2017&quot;&gt;open source survey&lt;/a&gt;. A very popular myth in programming is that good code explains itself, which might be true, but only for the person writing it. It’s important, especially once you put your project out there for the world to see, to document not only your code, but also the process by which you maintain it. Otherwise, it’s going to be extremely hard for newcomers to even figure out where to begin contributing to your project.&lt;/p&gt;
+
+&lt;p&gt;Jekyll has &lt;a href=&quot;/docs/contributing&quot;&gt;an entire section of its docs&lt;/a&gt; dedicated to information on how to contribute for this very reason. Every documentation page has a link to directly edit and improve it on GitHub. It’s also important to realize that not all contributions are code. It can be documentation, it can be reviewing pull requests, but it can also just be weighing into issues, and all of this should be recognized in the same way. At Jekyll, out of 397 total merged pull requests in the last year, &lt;strong&gt;204&lt;/strong&gt; were documentation pull requests!&lt;/p&gt;
+
+&lt;h2 id=&quot;create-newcomer-friendly-issues&quot;&gt;Create newcomer-friendly issues&lt;/h2&gt;
+
+&lt;p&gt;For most people new to open source, the biggest hurdle is creating their first pull request. That’s why initiatives such as &lt;a href=&quot;https://twitter.com/yourfirstpr&quot;&gt;YourFirstPR&lt;/a&gt; and &lt;a href=&quot;http://www.firsttimersonly.com/&quot;&gt;First Timers Only&lt;/a&gt; were started. Recently, &lt;a href=&quot;https://github.com/hoodiehq/first-timers-bot&quot;&gt;a GitHub bot that automatically creates first-timer friendly issues&lt;/a&gt; was launched, which makes it very easy for maintainers to convert otherwise small or trivial changes into viable pull requests that can be taken on by newcomers! So we decided to give it a shot, and we’ve created a couple of very easy &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;first timers only&lt;/code&gt; issues:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll/issues/6437&quot;&gt;Issue #6437&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll/issues/6438&quot;&gt;Issue #6438&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll/issues/6439&quot;&gt;Issue #6439&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(There’s also an up-to-date listing of all of our &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;first timers only&lt;/code&gt; issues &lt;a href=&quot;https://github.com/jekyll/jekyll/issues?q=is%3Aissue+is%3Aopen+label%3Afirst-time-only&quot;&gt;here&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;These issues are designed to be taken on only by someone who has had little to no exposure to contributing to open source before, and additionally, project maintainers offer support in case a question arises.&lt;/p&gt;
+
+&lt;p&gt;Jekyll is a very big and popular open source project, and we hope that with these special issues, we can help people who haven’t contributed to open source before to catch a footing in these unsteady waters.&lt;/p&gt;
+
+&lt;h2 id=&quot;be-nice&quot;&gt;Be nice&lt;/h2&gt;
+
+&lt;p&gt;I know this is a cliche and a overused phrase, but really, it works if you pull through with it. Come to terms with the fact that some people aren’t as fast or reliable as you might want to think. Don’t get angry when a contributor takes a day longer than you might like them to. Treat new contributors to your project with respect, but also with hospitality. Think twice before you send that comment with slurs in it.&lt;/p&gt;
+
+&lt;p&gt;I’ve been contributing to open source for about 4 years now, and I’ve had my fair share of horrible, horrible experiences. But Jekyll has historically been a project that has always valued the people contributing to it over the code itself, and I hope we can keep it that way. I also hope that other project maintainers read this and take inspiration from this post. Every project should be more diverse.&lt;/p&gt;</content><author><name>oe</name></author><category term="community" /><summary type="html">Open Source has a problem with diversity. GitHub recently conducted a survey which revealed that 95% of the respondents were identifying as male. This is even worse than in the tech industry overall, where the percentage is only about 76%. Every other week, there seems to be another case of a maintainer engaging in targeted harassment against minorities. People somehow deem it completely okay to let these things slide, though.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jekyllrb.com/img/twitter-card.png" /><media:content medium="image" url="https://jekyllrb.com/img/twitter-card.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
