@@ -2,5 +2,5 @@
 
 test_env="foo"
 
-cd docs
-bundler exec jekyll s
+# cd docs
+bundler exec jekyll s -s "docs"
